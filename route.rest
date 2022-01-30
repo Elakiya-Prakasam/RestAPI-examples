@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/61f5b28e7964aa9edf63142d
+
+### 
+
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Eve",
+    "subscribedToChannel": "Rockstar"
+
+}
+
+###
+DELETE http://localhost:3000/subscribers/61f5b2eb7964aa9edf63142f
+
+###
+PATCH  http://localhost:3000/subscribers/61f5d8b8055a302e4cee9201
+Content-Type: application/json
+
+{
+   "name":"new name" 
+}
